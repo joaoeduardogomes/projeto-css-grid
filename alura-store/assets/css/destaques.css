@@ -1,0 +1,84 @@
+.caixa { /*Pra colocar os títulos embaixo*/
+    align-items: flex-end;
+    background: #dcdcdc;
+    display: flex;
+    justify-content: center;
+}
+
+.destaques {
+    display: grid;
+    grid-gap: .2rem; /*Espaçamento entre as caixas do grid*/
+    grid-template-columns: 25% 25% 25% 25%; /*Aqui definimos o tamanho de cada coluna (4 no total)*/
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px); /*Aqui ele diz que vai ocupar toda a tela, excluindo os 50px do cabeçalho definidos no style.css. Ou seja, vai pegar tudo a partir do fim do cabeçalho.*/
+}
+
+.destaques__titulo { /*pra estilizar a caixinha dos títulos*/
+    background: rgba(0, 0, 0, .5);
+    color: #fdfdfd;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+}
+
+.destaques__principal {
+    background-image: url('../img/the-last-of-us-part-II.webp');
+    background-position: center; /*Deixa a imagem bem centralizada do espaço*/
+    background-repeat: no-repeat; /*Diz pra imagem não repetir caso sobre espaço, o que é importante em caso de imagens um pouco pequenas*/
+    background-size: cover; /*Diz que a imagem deve caber toda no espaço*/
+    grid-column-start: 1;
+    grid-column-end: 4; /*Para preencher 3 colunas, ele tem que terminar na 4ª. Porque ele termina no início da coluna end sem preenchê-la*/
+    grid-row-start: 1;
+    grid-row-end: 3;/*O mesmo vale pra linha. Para ter 2 linhas, é preciso mandar ele preencher até o início da terceira*/
+}
+
+.destaques__secundario:nth-child(2) {
+/*(2) porque ele é o segundo filho da section de classe destaques*/
+    background: url(../img/FE\ Three\ Houses.webp) center / cover no-repeat; /*ATALHO*/
+    grid-column: 4 / 4; /*ATALHO*/
+    grid-row: 1 / 1; /*ATALHO*/
+}
+
+.destaques__secundario:nth-child(3) {
+    background: url(../img/slack.png) center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+}
+
+.destaques__secundario:nth-child(4) {
+    background: url(../img/whatsapp.png) center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 3 / 3;
+}
+
+.destaques__secundario:nth-child(5) {
+    background: url(../img/firewatch.jpg) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+}
+
+.destaques__categorias {
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
+}
+
+.destaques__categorias___lista {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.destaques__categorias___item {
+    padding: 1rem;
+    align-items: center;
+    background: #fdfdfd;
+    border-left: 5px solid transparent;
+    color: #333333;
+    display: flex;
+    width: 50%;
+}
+
+.destaques__categorias___link {
+    color: inherit; /*"inherit" diz que ele vai herdar a propriedade do pai*/
+}

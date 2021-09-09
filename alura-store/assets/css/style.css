@@ -10,17 +10,19 @@
     grid-template-rows: 50px auto auto;
 }
 
+body main {
+    width: 1200px;
+    margin: auto;
+}
+
 .cabecalho {
-    background-color: #00cc99;
     grid-area: cabecalho; /*O grid-area define qual espaço do grid este elemento deve ocupar*/
 }
 
 .conteudo {
-    background-color: #ff8080;
     grid-area: conteudo;
 }
 
 .rodape {
-    background-color: #0099ff;
     grid-area: rodape;
 }
