@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Alura Store | Baixe nossos aplicativos e jogos</title>
+    <title>Game Station | All about games and gaming apps</title>
     <link href="./assets/css/normalize.css" rel="stylesheet">
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/destaques.css" rel="stylesheet">
     <link href="./assets/css/populares.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
 </head>
 <body class="app">
 <header class="cabecalho">
@@ -18,14 +19,14 @@
             <li class="menu__item">
                 <a class="menu__link ativo" href="#">
                     <i class="fas fa-home"></i>
-                    Início
+                    Home
                 </a>
                 <a class="menu__link" href="#">
                     <i class="fas fa-mobile-alt"></i>
-                    Aplicativos</a>
+                    Apps</a>
                 <a class="menu__link" href="#">
                     <i class="fas fa-gamepad"></i>
-                    Jogos
+                    Games
                 </a>
             </li>
         </ul>
@@ -34,10 +35,10 @@
 <main class="conteudo">
 <section class="destaques">
     <div class="destaques__principal caixa">
-        <h3 class="destaques__titulo">The Last of Us</h3> <!--Era Fortnite-->
+        <h3 class="destaques__titulo">The Last of Us Part II</h3>
     </div>
     <div class="destaques__secundario caixa">
-        <h3 class="destaques__titulo">Fire Emblem Three Houses</h3> <!--Era PUBG-->
+        <h3 class="destaques__titulo">Fire Emblem Three Houses</h3>
     </div>
     <div class="destaques__secundario caixa">
         <h3 class="destaques__titulo">Slack</h3>
@@ -46,32 +47,32 @@
         <h3 class="destaques__titulo">Whatsapp</h3>
     </div>
     <div class="destaques__secundario caixa">
-        <h3 class="destaques__titulo">Firewatch</h3> <!--Era CS:GO-->
+        <h3 class="destaques__titulo">Firewatch</h3>
     </div>
     <div class="destaques__categorias"> 
         <ul class="destaques__categorias___lista">
             <li class="destaques__categorias___item">
                 <a class="destaques__categorias___link" href="#">
                     <i class="destaques__categorias___icone fab fa-buromobelexperte"></i>
-                    Aplicativos populares
+                    Popular Apps
                 </a>
             </li>
             <li class="destaques__categorias___item">
                 <a class="destaques__categorias___link" href="#">
                     <i class="fas fa-list-ol"></i>
-                    Jogos populares
+                    Popular games
                 </a>
             </li>
             <li class="destaques__categorias___item">
                 <a class="destaques__categorias___link" href="#">
                     <i class="far fa-star"></i>
-                    Em Destaque
+                    Trending
                 </a>
             </li>
             <li class="destaques__categorias___item">
                 <a class="destaques__categorias___link" href="#">
                     <i class="far fa-bell"></i>
-                    Lançamentos
+                    Releases
                 </a>
             </li>
         </ul>
@@ -84,11 +85,11 @@
                 <div class="populares__cabecalho">
                     <h4 class="populares__titulo">
                         <i class="populares__icone fab fa-buromobelexperte"></i>
-                        Aplicativos populares
+                        Popular Apps
                     </h4>
                     <button class="populares__botao">
                         <i class="fas fa-th"></i>
-                        Visualizar todos
+                        View all
                     </button>
                 </div>
             </div>
@@ -101,7 +102,7 @@
                             <time class="populares__card___data" datetime="2013-08-01">08/2013</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Traduzido do inglês-O Slack é um conjunto baseado em nuvem de ferramentas e serviços proprietários de colaboração em equipe, fundado por Stewart Butterfield. O Slack começou como uma ferramenta interna usada por sua empresa, Tiny Speck, no desenvolvimento do Glitch, um jogo online agora extinto.
+                            <p>Slack is a proprietary business communication platform developed by American software company Slack Technologies and owned by Salesforce from 2021. Slack offers many IRC-style features, including persistent chat rooms (channels) organized by topic, private groups, and direct messaging.</p>
                         </div>
                     </div>
                 </div>
@@ -113,7 +114,7 @@
                             <time class="populares__card___data" datetime="20090-01-01">2009</time>
                         </div>
                         <div class="populares__card___descricao">
-                            WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas de voz para smartphones. Além de mensagens de texto, os usuários podem enviar imagens, vídeos e documentos em PDF, além de fazer ligações grátis por meio de uma conexão com a internet.
+                            <p>WhatsApp Messenger, or simply WhatsApp, is an American freeware, cross-platform centralized instant messaging (IM) and voice-over-IP (VoIP) service owned by Facebook, Inc. It allows users to send text messages and voice messages, make voice and video calls, and share images, documents, user locations, and other content.</p>
                         </div>
                     </div>
                 </div>
@@ -160,72 +161,72 @@
                 <div class="populares__cabecalho">
                     <h4 class="populares__titulo">
                         <i class="populares__icone fas fa-list-ol"></i>
-                        Jogos populares
+                        Popular games
                     </h4>
                     <button class="populares__botao">
                         <i class="fas fa-th"></i>
-                        Visualizar todos
+                        View all
                     </button>
                 </div>
             </div>
             <div class="populares__conteudo">
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/fortnite.jpg">
+                    <img class="populares__card___imagem" src="./assets/img/the-last-of-us-part-II.webp">
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">Fornite</h5>
-                            <time class="populares__card___data" datetime="2017-07-25">25/07/2017</time>
+                            <h5 class="populares__card___titulo">The Last of Us Part II</h5>
+                            <time class="populares__card___data" datetime="2020-06-19">19/06/2020</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Fortnite é um jogo eletrônico online criado em 2017, desenvolvido pela Epic Games, e lançado como diferentes pacotes de software com diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.
+                            <p>Set five years after The Last of Us (2013), the game focuses on two playable characters in a post-apocalyptic United States whose lives intertwine: Ellie, who sets out for revenge after suffering a tragedy, and Abby, a soldier who becomes involved in a conflict between her militia and a religious cult.</p>
                         </div>
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/pubg.jpg">
+                    <img class="populares__card___imagem" src="./assets/img/FE Three Houses.webp">
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">PUBG</h5>
-                            <time class="populares__card___data" datetime="2017-03-23">23/03/2017</time>
+                            <h5 class="populares__card___titulo">Fire Emblem: Three Houses</h5>
+                            <time class="populares__card___data" datetime="2019-07-26">26/07/2019</time>
                         </div>
                         <div class="populares__card___descricao">
-                            PlayerUnknown's Battlegrounds, ou somente Battlegrounds, é um jogo eletrônico multiplayer desenvolvido pela PUBG Corp., subsidiária da produtora coreana Bluehole, utilizando o motor de jogo Unreal Engine 4
+                            <p>Fire Emblem: Three Houses is a tactical role-playing game developed by Intelligent Systems and Koei Tecmo for the Nintendo Switch and published worldwide by Nintendo. It is the sixteenth installment in the Fire Emblem series and the first one for home consoles since Fire Emblem: Radiant Dawn, originally released in 2007.</p>
                         </div>
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/cs-go.jpg">
+                    <img class="populares__card___imagem" src="./assets/img/firewatch.jpg">
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">CS: GO</h5>
-                            <time class="populares__card___data" datetime="2012-08-21">21/08/2012</time>
+                            <h5 class="populares__card___titulo">Firewatch</h5>
+                            <time class="populares__card___data" datetime="2016-02-09">09/02/2016</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Counter-Strike: Global Offensive é um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source. É o quarto título principal da franquia.
+                            <p>The story follows a fire lookout named Henry in the Shoshone National Forest, a year after the Yellowstone fires of 1988. A month after his first day at work, strange things begin happening to him and his supervisor Delilah, which connects to a conspired mystery that happened years ago. Henry interacts with Delilah using a walkie-talkie, with the player choosing from dialog options to communicate.</p>
                         </div>
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/lol.jpg">
+                    <img class="populares__card___imagem" src="./assets/img/GoW 2018.jpg">
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">League of Legends</h5>
-                            <time class="populares__card___data" datetime="2009-10-27">27/10/2009</time>
+                            <h5 class="populares__card___titulo">God of War</h5>
+                            <time class="populares__card___data" datetime="2018-04-20">20/04/2018</time>
                         </div>
                         <div class="populares__card___descricao">
-                            League of Legends é um jogo eletrônico do gênero multiplayer online battle arena, desenvolvido e publicado pela Riot Games para Microsoft Windows e Mac OS X. É um jogo gratuito para jogar e inspirado no modo Defense of the Ancients de Warcraft III: The Frozen Throne.
+                            <p>Unlike previous games, which were loosely based on Greek mythology, this installment is loosely inspired by Norse mythology, with the majority of it set in ancient Scandinavia in the realm of Midgard. For the first time in the series, there are two protagonists: Kratos, the former Greek God of War who remains the only playable character, and his young son Atreus.</p>
                         </div>
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/gta-v.jpg">
+                    <img class="populares__card___imagem" src="./assets/img/Persona5.webp">
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">Grand Theft Auto V</h5>
-                            <time class="populares__card___data" datetime="2013-09-17">17/09/2013</time>
+                            <h5 class="populares__card___titulo">Persona 5</h5>
+                            <time class="populares__card___data" datetime="2016-09-15">15/09/2016</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Grand Theft Auto V é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games.
+                            <p>Persona 5 takes place in modern-day Tokyo and follows a high school student known by the pseudonym Joker who transfers to a new school after being falsely accused of assault and put on probation. Over the course of a school year, he and other students awaken to a special power, becoming a group of secret vigilantes known as the Phantom Thieves of Hearts.</p>
                         </div>
                     </div>
                 </div>
@@ -236,36 +237,36 @@
                 <div class="populares__cabecalho">
                     <h4 class="populares__titulo">
                         <i class="populares__icone far fa-star"></i>
-                        Em Destaque
+                        Trending
                     </h4>
                     <button class="populares__botao">
                         <i class="fas fa-th"></i>
-                        Visualizar todos
+                        View all
                     </button>
                 </div>
             </div>
             <div class="populares__conteudo">
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/fortnite.jpg">
+                    <img class="populares__card___imagem" src="./assets/img/grim-fandango.jpg">
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">Fornite</h5>
-                            <time class="populares__card___data" datetime="2017-07-25">25/07/2017</time>
+                            <h5 class="populares__card___titulo">Grim Fandango</h5>
+                            <time class="populares__card___data" datetime="2015-01-27">27/01/2015</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Fortnite é um jogo eletrônico online criado em 2017, desenvolvido pela Epic Games, e lançado como diferentes pacotes de software com diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.
+                            <p>Grim Fandango is set in the Land of the Dead, through which recently departed souls, represented as calaca-like figures, travel before they reach their final destination. The story follows travel agent Manuel "Manny" Calavera as he attempts to save new arrival Mercedes "Meche" Colomar, a virtuous soul, on her journey.</p>
                         </div>
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/pubg.jpg">
+                    <img class="populares__card___imagem" src="./assets/img/Spider-Man; Miles MoralesD.jpg">
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">PUBG</h5>
-                            <time class="populares__card___data" datetime="2017-03-23">23/03/2017</time>
+                            <h5 class="populares__card___titulo">Marvel's Spider-Man: Miles Morales</h5>
+                            <time class="populares__card___data" datetime="2020-09-19">19/11/2020</time>
                         </div>
                         <div class="populares__card___descricao">
-                            PlayerUnknown's Battlegrounds, ou somente Battlegrounds, é um jogo eletrônico multiplayer desenvolvido pela PUBG Corp., subsidiária da produtora coreana Bluehole, utilizando o motor de jogo Unreal Engine 4
+                            <p>Based on the Marvel Comics superhero Miles Morales, it is inspired by both the character's decade-long comic book mythology and the 2018 animated film Spider-Man: Into the Spider-Verse, which helped to popularize him.</p>
                         </div>
                     </div>
                 </div>
@@ -294,14 +295,14 @@
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/cs-go.jpg"> 
+                    <img class="populares__card___imagem" src="./assets/img/Digimon Survive; capa.jpg"> 
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">CS: GO</h5>
-                            <time class="populares__card___data" datetime="2012-08-21">21/08/2012</time>
+                            <h5 class="populares__card___titulo">Digimon Survive</h5>
+                            <time class="populares__card___data" datetime="2022-01-01">TBA</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Counter-Strike: Global Offensive é um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source. É o quarto título principal da franquia.
+                            <p>Player choices influence the direction of the story, including the Digimon's digivolution process. Multiple playthroughs can result in different paths and different digivolutions. The game will feature multiple endings and should wrong choices be made, characters will be killed.</p>
                         </div>
                     </div>
                 </div>
@@ -312,72 +313,72 @@
                 <div class="populares__cabecalho">
                     <h4 class="populares__titulo">
                         <i class="populares__icone far fa-bell"></i>
-                        Lançamentos
+                        Releases
                     </h4>
                     <button class="populares__botao">
                         <i class="fas fa-th"></i>
-                        Visualizar todos
+                        View all
                     </button>
                 </div>
             </div>
             <div class="populares__conteudo">
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/brawl-stars.jpg"> 
+                    <img class="populares__card___imagem" src="./assets/img/Yakuza-Like-A-Dragon-750x430.jpg"> 
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">Brawl Stars</h5>
-                            <time class="populares__card___data" datetime="2017-06-15">15/06/2017</time>
+                            <h5 class="populares__card___titulo">Yakuza: Like a Dragon</h5>
+                            <time class="populares__card___data" datetime="2021-03-02">02/03/2021</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Traduzido do inglês-Brawl Stars é um jogo multiplayer de arena e jogos de luta livre, desenvolvido e publicado pela Supercell. Em 14 de junho de 2017, a Supercell anunciou o jogo por meio de um vídeo de transmissão ao vivo no YouTube.
+                            <p>In contrast to the previous Yakuza games that focused on the life of Kazuma Kiryu, a man trying to lead a normal life following his retirement from the Tojo Clan, this game instead introduces a new protagonist named Ichiban Kasuga.</p>
                         </div>
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/organizze.jpeg"> 
+                    <img class="populares__card___imagem" src="./assets/img/monster-hunter-stories-2-wings-of-ruin-switch-hero.jpg"> 
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">Organizze</h5>
-                            <time class="populares__card___data" datetime="">Não definida</time>
+                            <h5 class="populares__card___titulo">Monster Hunter Stories 2</h5>
+                            <time class="populares__card___data" datetime="2021/07/09">09/07/2021</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Usado por mais de 1 milhão de pessoas, o Organizze é uma ferramenta online que vai facilitar sua vida financeira.  
+                            <p>The story begins with the mass disappearance of Rathalos around the world, as well as large pits emitting a strange, pinkish light appearing everywhere. As the descendant of the legendary Rider named Red, the player character has a fateful encounter with a white-haired Wyverian girl, Ena, who has been entrusted with a Rathalos egg by Gardian Ratha.</p>  
                         </div>
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/onefotball.jpeg"> 
+                    <img class="populares__card___imagem" src="./assets/img/resident-evil-village.jpg"> 
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">Onefootball</h5>
-                            <time class="populares__card___data" datetime="2008-01-01">2008</time>
+                            <h5 class="populares__card___titulo">Resident Evil Village</h5>
+                            <time class="populares__card___data" datetime="2021-05-07">07/05/2021</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Onefootball é a melhor plataforma para os fãs de futebol de todo o mundo. Das notícias às pontuações e estatísticas - Contamos as histórias de futebol do mundo, trazidas a você por mais de 150 entusiastas do coração de Berlim!
+                            <p>It is the sequel to Resident Evil 7: Biohazard (2017). Players control Ethan Winters, who is searching for his kidnapped daughter after a fateful encounter with Chris Redfield, and finds himself in a village filled with mutant creatures. While Village maintains the Resident Evil series' survival horror elements, the game adopts a more action-oriented gameplay style compared to its predecessor.</p>
                         </div>
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/free-fire.jpg"> 
+                    <img class="populares__card___imagem" src="./assets/img/ratchet-clank.jpg"> 
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">Free Fire</h5>
-                            <time class="populares__card___data" datetime="2017-11-01">01/11/2017</time>
+                            <h5 class="populares__card___titulo">Ratchet and Clank: Rift Apart</h5>
+                            <time class="populares__card___data" datetime="2021-06-11">11/06/2021</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Garena Free Fire é um jogo eletrônico mobile de ação-aventura do gênero battle royale, desenvolvido pela 111dots Studio e publicado pela Garena. O jogo obteve um beta aberto em novembro de 2017 e foi lançado oficialmente para Android e iOS em 4 de dezembro de 2017.
+                            <p>The game shares many gameplay similarities with Ratchet & Clank (2016) and other entries in the series. It retains elements of previous Ratchet & Clank games, such as strafing, gunplay, collection of bolts, automatic weapon and health upgrades, manual Raritanium weapon upgrading and gadgets.</p>
                         </div>
                     </div>
                 </div>
                 <div class="populares__card">
-                    <img class="populares__card___imagem" src="./assets/img/mario-kart.jpg"> 
+                    <img class="populares__card___imagem" src="./assets/img/life-is-strange-true-colors.jpg"> 
                     <div class="populares__card___corpo">
                         <div class="populares__card___cabecalho">
-                            <h5 class="populares__card___titulo">Super Mario Racing</h5>
-                            <time class="populares__card___data" datetime="">Não definida</time>
+                            <h5 class="populares__card___titulo">Life is Strange: True Colors</h5>
+                            <time class="populares__card___data" datetime="2021-09-10">10/09/2021</time>
                         </div>
                         <div class="populares__card___descricao">
-                            Jogo Super Mario Racing. Escolha seu personagem preferido do Universo do Super Mario e depois é só acelerar!
+                            <p>Life Is Strange: True Colors is a graphic adventure played from a third-person view. The player controls the protagonist, Alex Chen, to explore various locations in the fictional setting of Haven Springs and communicate with non-playable characters through the conversation system based on dialogue trees. </p>
                         </div>
                     </div>
                 </div>
@@ -385,7 +386,7 @@
         </div>
     </section>
 </main>
-<footer class="rodape">Rodapé</footer>
+<footer class="rodape">Todos os direitos reservados &copy;2021</footer>
 <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
 </html>
