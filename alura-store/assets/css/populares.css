@@ -18,6 +18,8 @@
 }
 
 .populares__cabecalho {
+    width: 93%;
+    margin: 0 1rem;
     border-bottom: 1px solid #dcdcdc; /*A linha entre os botões e o grid*/
     display: flex;
     justify-content: space-between;
@@ -36,9 +38,9 @@
         "card-imagem"
         "card-corpo";
     grid-auto-columns: 100%;
-    width: calc(20% - 1rem); /*Os 20% separa em 5 colunas. O cálculo faz diminui 1rem da width total pra poder usar esse valor na margem*/
-    margin: 0 0.5rem;
-    grid-template-rows: 155px auto; /*Aqui começamos a redimensionar as imagens. A primeira linha vai ter 173px(mudei pra 155px), e a segunda será auto. Isso é bom para alinhar, pois sem esta configuração as imagens têm tamanhos diferentes na vertical.*/
+    /*width: calc(20% - 1rem); -> Os 20% separa em 5 colunas. O cálculo faz diminui 1rem da width total pra poder usar esse valor na margem [foi pro responsivo]*/
+    margin: 0 .5rem;
+    /*grid-template-rows: 155px auto; -> Aqui começamos a redimensionar as imagens. A primeira linha vai ter 173px(mudei pra 155px), e a segunda será auto. Isso é bom para alinhar, pois sem esta configuração as imagens têm tamanhos diferentes na vertical. [foi pro responsivo]*/
 }
 
 .populares__card___imagem {
