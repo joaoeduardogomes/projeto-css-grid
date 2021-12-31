@@ -27,7 +27,7 @@
     background-repeat: no-repeat; /*Diz pra imagem não repetir caso sobre espaço, o que é importante em caso de imagens um pouco pequenas*/
     background-size: cover; /*Diz que a imagem deve caber toda no espaço*/
     /*grid-column-start: 1;
-    grid-column-end: 4; Para preencher 3 colunas, ele tem que terminar na 4ª. Porque ele termina no início da coluna end sem preenchê-la -> tirei is "grid-column" porque ele será mexido na parte responsiva.*/
+    grid-column-end: 4; Para preencher 3 colunas, ele tem que terminar na 4ª. Porque ele termina no início da coluna end sem preenchê-la -> tirei os "grid-column" porque ele será mexido na parte responsiva.*/
     grid-row-start: 1;
     grid-row-end: 3;/*O mesmo vale pra linha. Para ter 2 linhas, é preciso mandar ele preencher até o início da terceira*/
 }
@@ -36,7 +36,7 @@
 /*(2) porque ele é o segundo filho da section de classe destaques*/
     background: url(../img/FE\ Three\ Houses.webp) center / cover no-repeat; /*ATALHO*/
     /*grid-column: 4 / 4; ATALHO*/
-    /*Agrid-row: 1 / 1; TALHO*/
+    /*grid-row: 1 / 1; ATALHO*/
 }
 
 .destaques__secundario:nth-child(3) {
