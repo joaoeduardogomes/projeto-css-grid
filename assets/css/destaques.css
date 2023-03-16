@@ -7,9 +7,6 @@
     cursor: pointer;
     transition: all 0.2s ease-in;
 }
-.caixa:hover{
-    background-size: 150% !important;
-}
 
 
 .destaques {
@@ -39,6 +36,9 @@
     grid-row-start: 1;
     grid-row-end: 3;/*O mesmo vale pra linha. Para ter 2 linhas, é preciso mandar ele preencher até o início da terceira*/
 }
+.destaques__principal:hover {
+    background-size: 110%;
+}
 
 .destaques__secundario:nth-child(2) {
 /*(2) porque ele é o segundo filho da section de classe destaques*/
@@ -63,6 +63,15 @@
     background: url(../img/firewatch.jpg) center / cover no-repeat;
     /*grid-column: 3 / 3;
     grid-row: 3 / 3; */
+}
+.destaques__secundario:hover {
+    background-size: 110%;
+}
+.destaques__secundario:nth-child(2):hover {
+    background-size: 170%;
+}
+.destaques__secundario:nth-child(5):hover {
+    background-size: 100% 100%;
 }
 
 .destaques__categorias {
